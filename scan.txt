@@ -1,0 +1,54 @@
+# Nmap 7.91 scan initiated Thu Apr  9 19:30:43 2026 as: nmap -sS -oN scan.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.0032s latency).
+Not shown: 995 filtered ports
+PORT    STATE SERVICE
+53/tcp  open  domain
+80/tcp  open  http
+139/tcp open  netbios-ssn
+443/tcp open  https
+445/tcp open  microsoft-ds
+MAC Address: BC:62:D2:33:1D:04 (Genexis International)
+
+Nmap scan report for 192.168.1.3
+Host is up (0.0080s latency).
+All 1000 scanned ports on 192.168.1.3 are closed
+MAC Address: BA:87:4D:90:23:73 (Unknown)
+
+Nmap scan report for 192.168.1.4
+Host is up (0.0048s latency).
+Not shown: 999 closed ports
+PORT     STATE SERVICE
+8888/tcp open  sun-answerbook
+MAC Address: 46:CA:BB:18:59:D9 (Unknown)
+
+Nmap scan report for 192.168.1.5
+Host is up (0.0066s latency).
+Not shown: 998 closed ports
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: 3E:68:99:40:8D:85 (Unknown)
+
+Nmap scan report for 192.168.1.9
+Host is up (0.0088s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+8008/tcp open  http
+8009/tcp open  ajp13
+8443/tcp open  https-alt
+9000/tcp open  cslistener
+MAC Address: B4:C9:B9:E5:1F:ED (Sichuan AI-Link Technology)
+
+Nmap scan report for 192.168.1.10
+Host is up (0.0039s latency).
+Not shown: 999 closed ports
+PORT     STATE SERVICE
+8888/tcp open  sun-answerbook
+MAC Address: E2:89:82:3F:99:35 (Unknown)
+
+Nmap scan report for 192.168.1.6
+Host is up (0.0000020s latency).
+All 1000 scanned ports on 192.168.1.6 are closed
+
+# Nmap done at Thu Apr  9 19:31:05 2026 -- 256 IP addresses (7 hosts up) scanned in 21.66 seconds

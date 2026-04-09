@@ -1,0 +1,28 @@
+Cyber Security Internship - Task 1
+Scan Local Netwrok for Open port
+
+Tool Used:
+- Nmap
+ 
+Network Range:
+
+1. 192.168.1.1
+Open Port: 53, 80, 139, 443, 445
+
+2. 192.168.1.4
+Open Port: 8888
+
+3. 192.168.1.5
+Open Ports: 49152, 62078
+
+4. 192.168.1.9
+Open Ports: 8008, 8009, 8443, 9000
+
+Security Risk: 
+-Open HTTP ports may allow unauthorized access
+-Open unknown ports may expose services
+-Iot devices may have weak security
+
+Conclusion:
+
+Netwrok scan successfully completed and open ports identified.
